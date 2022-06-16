@@ -20,9 +20,8 @@ for line in file:
     bd.add_context(context)
     epg.add_bd(bd)
     #bd.set_unicast_route('yes')
-    bd.set_unknown_unicast('flood')
     tenant.push_to_apic(session)
-
+file.close()
 
 #bd.set_arp_flood('yes')
 #bd.set_unicast_route('no')
