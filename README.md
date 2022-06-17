@@ -32,3 +32,12 @@ Clone the repository
 
 # GET tenant list from Cisco sandbox
 Cisco ACI sandbox is available [here](https://sandboxapicdc.cisco.com)
+
+The script use the file called "credentials.py" to retrieve the APIC credentials.
+
+    python3 get_tenant.py
+
+List all the configured tenants in the infrastructure.
+
+
+
