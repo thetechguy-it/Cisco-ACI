@@ -8,10 +8,10 @@ configuration of the Cisco APIC controller. It is intended to allow users to qui
 
 # Documentation
 
-[API References](https://acitoolkit.readthedocs.io/en/latest/acitoolkit.acitoolkit.html)
-[Basic tutorial](https://acitoolkit.readthedocs.io/en/latest/tutorial.html)
+[API References](https://acitoolkit.readthedocs.io/en/latest/acitoolkit.acitoolkit.html)       
+[Basic tutorial](https://acitoolkit.readthedocs.io/en/latest/tutorial.html)        
 
-The full documentation is published at the following link:
+The full documentation is published at the following link:       
 [http://datacenter.github.io/acitoolkit/](http://datacenter.github.io/acitoolkit/)
 # Installation
 
