@@ -30,9 +30,8 @@ for line in file:
     bd.add_context(vrf)
     epg.add_bd(bd)
     epg.add_infradomain(dom)
-    bddescr, epgdescr = splitted_list[7]
-    epg.descr = epgdescr
-    bd.descr = bddescr
-    print(f'I\'m going to push the following parameters\nTenant: {tenant}\nApplication Profile: {app}\nVRF: {vrf}\nBridge Domain: {bd}\nEPG: {epg}\n')
-    tenant.push_to_apic(session)
+    epgbddescr = splitted_list[7]
+    epg.descr = epgbddescr
+    bd.descr = epgbddescr
+    print(f"I'm going to push the following parameters\nTenant: {tenant}\nApplication Profile: {app}\nVRF: {vrf}\nBridge Domain: {bd}\nEPG: {epg}\nPhysical Domain associated to EPG: {dom}\nEPG and BD Description: {epgbddescr}")    tenant.push_to_apic(session)
 file.close()
