@@ -33,5 +33,6 @@ for line in file:
     epgbddescr = splitted_list[7]
     epg.descr = epgbddescr
     bd.descr = epgbddescr
-    print(f"I'm going to push the following parameters\nTenant: {tenant}\nApplication Profile: {app}\nVRF: {vrf}\nBridge Domain: {bd}\nEPG: {epg}\nPhysical Domain associated to EPG: {dom}\nEPG and BD Description: {epgbddescr}")    tenant.push_to_apic(session)
+    print(f"I'm going to push the following parameters\nTenant: {tenant}\nApplication Profile: {app}\nVRF: {vrf}\nBridge Domain: {bd}\nEPG: {epg}\nPhysical Domain associated to EPG: {dom}\nEPG and BD Description: {epgbddescr}")    
+    tenant.push_to_apic(session)
 file.close()
